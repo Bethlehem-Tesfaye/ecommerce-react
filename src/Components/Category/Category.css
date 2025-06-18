@@ -1,0 +1,39 @@
+
+.c-container{
+     
+}
+.c-title{
+   justify-content: space-between; 
+   margin-bottom: 30px;
+   width: 100%;
+}
+.c-title .title-right span{
+    font-family: "Koulen", serif;
+    font-size: 25px;
+}
+.title-left {
+   
+    gap: 10px;
+  }
+  .title-left .left{
+    padding: 5px 10px;
+    background: var(--lightGray);
+}
+ .title-left .right{
+    padding: 5px 10px;
+    background:var(--DarkGray);
+}
+.cat{
+    background-color: var(--DarkGray);
+    padding: 0px 20px ;
+    width: 171px;
+    height: 166px; 
+    border-radius: 20px;
+}
+.cat span{
+    font-family: "Koulen", serif;
+}
+.c-category{
+    justify-content: space-between;
+    width: 100%;
+}

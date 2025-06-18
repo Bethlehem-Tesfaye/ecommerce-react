@@ -1,0 +1,22 @@
+[
+    {
+        "imgage":"./brand.png",
+        "name":"clothes"
+    },
+    {
+        "imgage":"./ring.png",
+        "name":"accessories"
+    },
+    {
+        "imgage":"./iphone.png",
+        "name":"phones"
+    },
+    {
+        "imgage":"./laptop.png",
+        "name":"Laptops"
+    },
+    {
+        "imgage":"./game.png",
+        "name":"gaming settings"
+    }
+]

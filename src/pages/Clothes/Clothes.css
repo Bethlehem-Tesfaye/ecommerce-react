@@ -1,0 +1,47 @@
+.cloth-top{
+    background: var(--WomenClothPageProduct);
+    gap: 30px;
+    justify-content: space-around;
+    padding: 45px 30px;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    /* margin: 0 -280px; */
+    width: 100%;
+}
+.cloth-wraper{
+    padding-bottom: 50px;
+}
+.seasonal-sale{
+    font-size: 52px;
+}
+.discount{
+    font-size: 40px;
+}
+.cloth-top .button{
+    background: var(--ShopNow);
+}
+
+
+.hidden-btn {
+    display: none;
+}
+.women, .men{
+    background: #56595B;
+    width: 80px;
+    text-align: center;
+    padding: 7px 5px;
+
+}
+.women, .men:hover{
+    cursor: pointer;
+}
+.men{
+    background: #878b8d;
+}
+.women-men{
+    gap: 30px;
+}
+.cloth-bottom .button{
+    background: #56595B;
+    margin-top: 30px;
+}

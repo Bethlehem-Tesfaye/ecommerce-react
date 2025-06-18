@@ -1,0 +1,18 @@
+.f-wrapper{
+    margin-top: 50px; 
+    padding-bottom: 30px;
+    width: 100%;
+}
+.f-container{
+    background: var(--homePageProduct);
+    border-radius: 20px;
+    padding: 50px;
+    gap: 40px;
+}
+.f-container .button{
+    background:#454a4d;
+}
+.f-container .socials{
+    gap: 70px;
+    justify-content: space-around;
+}

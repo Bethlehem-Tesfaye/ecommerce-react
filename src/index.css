@@ -1,0 +1,80 @@
+:root {
+  --background:#DBEBF3;
+  --menuBar:#C9DDE1;
+  /* --heading:black; */
+  --cart:#ABB9C2;/*for the cart and the categories*/
+  --homePageProduct:#ADC5D7;
+  --buyNow:#045C76;
+  --WomenClothPageProduct:#ADB0B0;
+  --womenClothList:#CFD2D2;/*a;so for individual page*/
+  --ShopNow:#2B393F;
+  --DarkGray:#88959D;/*for selct or hover*/
+  --lightGray:#ABB9C2;/*for explore More and not selcted or hover*/
+  --addToChart:#56595B;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  /* background: var(--background); */
+}
+.padding{
+  padding: 20px;
+}
+.innerWidth{
+  width: 90%;
+  margin: auto;
+}
+
+.flexRowCenter{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+} 
+.flexRowStart{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.flexColCenter{
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  justify-content: center;
+  align-items: center;
+}
+.flexColStart{
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  justify-content: center;
+  align-items: flex-start;
+}
+.button{
+  border-radius: 17px;
+  padding: 13px 40px;
+  color: white;
+  outline: none;
+  border: none;
+}
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.primaryText{
+  font-family: "Koulen", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+.SecondaryText{
+  font-family: "Island Moments", serif;
+  font-weight: 400;
+  font-style: normal;
+}

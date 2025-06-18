@@ -1,0 +1,109 @@
+
+.d-container{
+    gap: 50px;
+    /* justify-content: space-around; */
+    margin-top: 70px;
+}
+.box-des{
+    width: 370px;
+    /* margin-top: 60px; */
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    padding: 5px 10px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.box-des p{
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    max-width: 100%;
+    white-space: normal; /*Allows wrapping*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Poppins", serif;
+    text-align: left;
+}
+.productDes{
+    gap: 30px;
+}
+.pro-title{
+    font-family: "Koulen", serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+.pro-price{
+    font-family: "Koulen", serif;
+  font-weight: 100;
+  font-size: 22px;
+}
+.pro-category{
+    font-family: "Koulen", serif;
+  font-weight: 100;
+  font-size: 17px;
+}
+.d-bottom{
+    margin-left: 40px;
+    gap: 20px;
+}
+.d-bottom span{
+    font-family: "Koulen", serif;
+  font-weight: 100;
+  font-size: 22px;
+  /* margin-bottom: 30px; */
+}
+.d-top{
+    gap: 50px;
+}
+.d-bottom .p-size div{
+    width: 35px;
+    padding: 5px 10px;
+    background:var(--womenClothList);
+}
+.d-bottom button{
+    /* margin: 30px auto; */
+    background: #48494a;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.d-bottom>:nth-child(3){
+    gap: 40px;
+}
+.main-image{
+    background: var(--womenClothList);
+    margin-right: 30px;
+    border-radius: 20px;
+    width: 340px;
+    height: 350px;
+    position: relative;
+}
+.main-image2{
+    background: var(--womenClothList);
+    margin-right: 30px;
+    border-radius: 20px;
+    width: 340px;
+    height: 450px;
+    position: relative;
+}
+.main-image2 img {
+    width: 100%;
+}
+.main-image img {
+    width: 100%;
+}
+.images-box{
+    background: var(--womenClothList);
+    border-radius: 20px;
+}
+.main-image .heart{
+    position: absolute;
+    left: 7px;
+    top: 5px;
+}
+.main-image2 .heart2{
+    position: absolute;
+    left: 7px;
+    top: 5px;
+}

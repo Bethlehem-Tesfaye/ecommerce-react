@@ -1,0 +1,43 @@
+.cart-wraper{
+    min-height: 100vh;
+}
+.cart-summary{
+    justify-content: start;
+    gap: 50px;
+    margin: 20px auto;
+
+    
+}
+.cart-summary .title{
+    text-align: center;
+}
+.cart-title{
+    margin: auto 0;
+    width: 270px;
+}
+.cart-price, .cart-quantity, .cart-total, .cart-remove{
+    width: 55px;
+    margin: auto;
+    text-align: center;
+}
+.cart-products{
+    background-color: var(--womenClothList);
+    border-radius: 10px;
+}
+.cart-quantity{
+    gap: 0px;
+}
+.cart-quantity .controller {
+    /* background-color: white; */
+    margin: auto;
+}
+.cart-quantity .controller span{
+    font-style: bold;
+    font-weight: bold;
+}
+.cart-quantity .controller span:hover{
+    cursor: pointer;
+}
+.cart-remove:hover{
+    cursor: pointer;
+}

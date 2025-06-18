@@ -1,0 +1,53 @@
+.he-container{
+    background: var(--homePageProduct);
+    border-radius: 20px;
+    justify-content: space-around;
+}
+.he-left{
+    gap: 30px;
+}
+.he-left .primaryText{
+    font-family: "Poppins", serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;  
+    background: linear-gradient(120deg, rgb(7, 52, 55), rgb(91, 235, 223));  
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); 
+    animation: textAnimate 3s ease-in-out infinite; 
+}
+.he-left .button{
+    background: var(--buyNow);
+}
+.he-right .phoneImg{
+    position: relative;
+    animation: float 3s ease-in-out infinite;
+}
+.he-right .price{
+    background: white;
+    border-radius: 50%;
+    width: 90px;
+    height: 80px;
+    position: absolute;
+    left: 15px;
+    top:10px;
+    z-index: 2;
+    animation: zoom 3s ease-in-out infinite;
+}
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+  }
+
+  @keyframes zoom {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  @keyframes textAnimate {
+    0% { transform: scale(1); opacity: 0.7; }
+    50% { transform: scale(1.1); opacity: 1; }
+    100% { transform: scale(1); opacity: 0.7; }
+} 
