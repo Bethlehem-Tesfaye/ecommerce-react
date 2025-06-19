@@ -3,7 +3,7 @@ import './Footer.css'
 import { FaEnvelope, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 export const Footer = () => {
   return (
-    <section className="f-wrapper">
+    <section id="footer-contact" className="f-wrapper">
         <div className="flexColCenter innerWidth padding f-container">
             <div className="text">
                 <p>Shop with Free Shipping on all orders over $50!</p>

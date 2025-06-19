@@ -1,0 +1,47 @@
+.about-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  /* font-family: sans-serif; */
+  color: #333;
+  height: 100vh;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-subtitle {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.about-paragraph {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+}
+
+.about-contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-contact-list li {
+  margin-bottom: 8px;
+}

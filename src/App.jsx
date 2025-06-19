@@ -9,6 +9,7 @@ import { Clothes } from './pages/Clothes/Clothes';
 import { Accessories } from './pages/Accessories/Accessories';
 import { Phones } from './pages/Phones/Phones';
 import { Laptops } from './pages/Laptops/Laptops';
+import About from './Components/about/About';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path='/shop' element={<Shop/>}/>
+          <Route path='/about' element={<About/>}/>
           <Route path='/details/:id' element={<Details/>}/>
           <Route path='/favorite' element={<Favorite/>}/>
           <Route path='/cart' element={<Cart/>}/>
