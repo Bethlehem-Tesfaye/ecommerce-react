@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 // import { GlobalContext } from "../../utils/Context";
 import { Header } from "../../Components/Header/Header";
 import { FaStar, FaRegStar, FaHeart } from "react-icons/fa6";
-import "./details.css";
+import "./Details.css";
 import { GlobalContext } from "../../utils/Context";
 
 export const Details = () => {
